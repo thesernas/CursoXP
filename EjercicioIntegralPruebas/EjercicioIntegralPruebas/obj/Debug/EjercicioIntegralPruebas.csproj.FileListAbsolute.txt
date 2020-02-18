@@ -1,0 +1,16 @@
+C:\Repositorio\CursoXP\EjercicioIntegralPruebas\EjercicioIntegralPruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Repositorio\CursoXP\EjercicioIntegralPruebas\EjercicioIntegralPruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Repositorio\CursoXP\EjercicioIntegralPruebas\EjercicioIntegralPruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Repositorio\CursoXP\EjercicioIntegralPruebas\EjercicioIntegralPruebas\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Repositorio\CursoXP\EjercicioIntegralPruebas\EjercicioIntegralPruebas\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Repositorio\CursoXP\EjercicioIntegralPruebas\EjercicioIntegralPruebas\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Repositorio\CursoXP\EjercicioIntegralPruebas\EjercicioIntegralPruebas\bin\Debug\EjercicioIntegralPruebas.dll
+C:\Repositorio\CursoXP\EjercicioIntegralPruebas\EjercicioIntegralPruebas\bin\Debug\EjercicioIntegralPruebas.pdb
+C:\Repositorio\CursoXP\EjercicioIntegralPruebas\EjercicioIntegralPruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Repositorio\CursoXP\EjercicioIntegralPruebas\EjercicioIntegralPruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Repositorio\CursoXP\EjercicioIntegralPruebas\EjercicioIntegralPruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Repositorio\CursoXP\EjercicioIntegralPruebas\EjercicioIntegralPruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Repositorio\CursoXP\EjercicioIntegralPruebas\EjercicioIntegralPruebas\obj\Debug\EjercicioIntegralPruebas.csprojAssemblyReference.cache
+C:\Repositorio\CursoXP\EjercicioIntegralPruebas\EjercicioIntegralPruebas\obj\Debug\EjercicioIntegralPruebas.csproj.CopyComplete
+C:\Repositorio\CursoXP\EjercicioIntegralPruebas\EjercicioIntegralPruebas\obj\Debug\EjercicioIntegralPruebas.dll
+C:\Repositorio\CursoXP\EjercicioIntegralPruebas\EjercicioIntegralPruebas\obj\Debug\EjercicioIntegralPruebas.pdb
