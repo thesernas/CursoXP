@@ -53,5 +53,138 @@ namespace EjercicioIntegralPruebas
             Assert.AreEqual("ROJO", obj.ObtenerNivelToxicidad(100));
         }
 
+        [TestMethod]
+        public void TestGradoToxicidadPairWise1()
+        {
+            HU2 Obj = new HU2();
+            var ObjE = new Elemento();
+            ObjE.PH = new Propiedad() { ValorRecibido = 6, ValorPonderado = 0 };
+            ObjE.NP = new Propiedad() { ValorRecibido = "10-20", ValorPonderado = 0 };
+            ObjE.CN = new Propiedad() { ValorRecibido = "ALTA", ValorPonderado = 0 };
+            ObjE.Acidez = new Propiedad() { ValorRecibido = "BÁSICO", ValorPonderado = 0 };
+            ObjE.Tipo = new Propiedad() { ValorRecibido = "MTP", ValorPonderado = 0 };
+            ObjE.Composicion = new Propiedad() { ValorRecibido = "ACTIVO", ValorPonderado = 0 };
+
+            Assert.AreEqual(-1, Obj.ObtenerGradoToxicidad(ObjE));
+        }
+
+        [TestMethod]
+        public void TestGradoToxicidadPairWise2()
+        {
+            HU2 Obj = new HU2();
+            var ObjE = new Elemento();
+            ObjE.PH = new Propiedad() { ValorRecibido = 6, ValorPonderado = 0 };
+            ObjE.NP = new Propiedad() { ValorRecibido = "20-30", ValorPonderado = 0 };
+            ObjE.CN = new Propiedad() { ValorRecibido = "BAJA", ValorPonderado = 0 };
+            ObjE.Acidez = new Propiedad() { ValorRecibido = "ALCALINO", ValorPonderado = 0 };
+            ObjE.Tipo = new Propiedad() { ValorRecibido = "HOMEOPÁTICO", ValorPonderado = 0 };
+            ObjE.Composicion = new Propiedad() { ValorRecibido = "EXCIPIENTE", ValorPonderado = 0 };
+
+            Assert.AreEqual(-1, Obj.ObtenerGradoToxicidad(ObjE));
+        }
+
+        [TestMethod]
+        public void TestGradoToxicidadPairWise3()
+        {
+            HU2 Obj = new HU2();
+            var ObjE = new Elemento();
+            ObjE.PH = new Propiedad() { ValorRecibido = 6, ValorPonderado = 0 };
+            ObjE.NP = new Propiedad() { ValorRecibido = "20-30", ValorPonderado = 0 };
+            ObjE.CN = new Propiedad() { ValorRecibido = "MEDIA", ValorPonderado = 0 };
+            ObjE.Acidez = new Propiedad() { ValorRecibido = "ALCALINO", ValorPonderado = 0 };
+            ObjE.Tipo = new Propiedad() { ValorRecibido = "HOMEOPÁTICO", ValorPonderado = 0 };
+            ObjE.Composicion = new Propiedad() { ValorRecibido = "EXCIPIENTE", ValorPonderado = 0 };
+
+            Assert.AreEqual(-1, Obj.ObtenerGradoToxicidad(ObjE));
+        }
+
+        [TestMethod]
+        public void TestGradoToxicidadPairWise4()
+        {
+            HU2 Obj = new HU2();
+            var ObjE = new Elemento();
+            ObjE.PH = new Propiedad() { ValorRecibido = 7, ValorPonderado = 0 };
+            ObjE.NP = new Propiedad() { ValorRecibido = "20-30", ValorPonderado = 0 };
+            ObjE.CN = new Propiedad() { ValorRecibido = "MEDIA", ValorPonderado = 0 };
+            ObjE.Acidez = new Propiedad() { ValorRecibido = "BASICO", ValorPonderado = 0 };
+            ObjE.Tipo = new Propiedad() { ValorRecibido = "HOMEOPÁTICO", ValorPonderado = 0 };
+            ObjE.Composicion = new Propiedad() { ValorRecibido = "EXCIPIENTE", ValorPonderado = 0 };
+
+            Assert.AreEqual(-1, Obj.ObtenerGradoToxicidad(ObjE));
+        }
+
+        [TestMethod]
+        public void TestGradoToxicidadPairWise5()
+        {
+            HU2 Obj = new HU2();
+            var ObjE = new Elemento();
+            ObjE.PH = new Propiedad() { ValorRecibido = 7, ValorPonderado = 0 };
+            ObjE.NP = new Propiedad() { ValorRecibido = "20-30", ValorPonderado = 0 };
+            ObjE.CN = new Propiedad() { ValorRecibido = "ALTA", ValorPonderado = 0 };
+            ObjE.Acidez = new Propiedad() { ValorRecibido = "ALCALINO", ValorPonderado = 0 };
+            ObjE.Tipo = new Propiedad() { ValorRecibido = "HOMEOPÁTICO", ValorPonderado = 0 };
+            ObjE.Composicion = new Propiedad() { ValorRecibido = "ACTIVO", ValorPonderado = 0 };
+
+            Assert.AreEqual(-1, Obj.ObtenerGradoToxicidad(ObjE));
+        }
+
+        [TestMethod]
+        public void TestGradoToxicidadPairWise6()
+        {
+            HU2 Obj = new HU2();
+            var ObjE = new Elemento();
+            ObjE.PH = new Propiedad() { ValorRecibido = 7, ValorPonderado = 0 };
+            ObjE.NP = new Propiedad() { ValorRecibido = "10-20", ValorPonderado = 0 };
+            ObjE.CN = new Propiedad() { ValorRecibido = "BAJA", ValorPonderado = 0 };
+            ObjE.Acidez = new Propiedad() { ValorRecibido = "ALCALINO", ValorPonderado = 0 };
+            ObjE.Tipo = new Propiedad() { ValorRecibido = "MTP", ValorPonderado = 0 };
+            ObjE.Composicion = new Propiedad() { ValorRecibido = "EXCIPIENTE", ValorPonderado = 0 };
+
+            Assert.AreEqual(-1, Obj.ObtenerGradoToxicidad(ObjE));
+        }
+
+        [TestMethod]
+        public void TestGradoToxicidadPairWise7()
+        {
+            HU2 Obj = new HU2();
+            var ObjE = new Elemento();
+            ObjE.PH = new Propiedad() { ValorRecibido = 7, ValorPonderado = 0 };
+            ObjE.NP = new Propiedad() { ValorRecibido = "10-20", ValorPonderado = 0 };
+            ObjE.CN = new Propiedad() { ValorRecibido = "BAJA", ValorPonderado = 0 };
+            ObjE.Acidez = new Propiedad() { ValorRecibido = "BASICO", ValorPonderado = 0 };
+            ObjE.Tipo = new Propiedad() { ValorRecibido = "MTP", ValorPonderado = 0 };
+            ObjE.Composicion = new Propiedad() { ValorRecibido = "EXCIPIENTE", ValorPonderado = 0 };
+
+            Assert.AreEqual(-1, Obj.ObtenerGradoToxicidad(ObjE));
+        }
+
+        [TestMethod]
+        public void TestGradoToxicidadPairWise8()
+        {
+            HU2 Obj = new HU2();
+            var ObjE = new Elemento();
+            ObjE.PH = new Propiedad() { ValorRecibido = 7, ValorPonderado = 0 };
+            ObjE.NP = new Propiedad() { ValorRecibido = "10-20", ValorPonderado = 0 };
+            ObjE.CN = new Propiedad() { ValorRecibido = "MEDIA", ValorPonderado = 0 };
+            ObjE.Acidez = new Propiedad() { ValorRecibido = "ALCALINO", ValorPonderado = 0 };
+            ObjE.Tipo = new Propiedad() { ValorRecibido = "MTP", ValorPonderado = 0 };
+            ObjE.Composicion = new Propiedad() { ValorRecibido = "EXCIPIENTE", ValorPonderado = 0 };
+
+            Assert.AreEqual(-1, Obj.ObtenerGradoToxicidad(ObjE));
+        }
+        [TestMethod]
+        public void TestGradoToxicidadPairWise9()
+        {
+            HU2 Obj = new HU2();
+            var ObjE = new Elemento();
+            ObjE.PH = new Propiedad() { ValorRecibido = 7, ValorPonderado = 0 };
+            ObjE.NP = new Propiedad() { ValorRecibido = "20-30", ValorPonderado = 0 };
+            ObjE.CN = new Propiedad() { ValorRecibido = "ALTA", ValorPonderado = 0 };
+            ObjE.Acidez = new Propiedad() { ValorRecibido = "ALCALINO", ValorPonderado = 0 };
+            ObjE.Tipo = new Propiedad() { ValorRecibido = "HOMEOPÁTICO", ValorPonderado = 0 };
+            ObjE.Composicion = new Propiedad() { ValorRecibido = "ACTIVO", ValorPonderado = 0 };
+
+            Assert.AreEqual(-1, Obj.ObtenerGradoToxicidad(ObjE));
+        }
     }
 }
